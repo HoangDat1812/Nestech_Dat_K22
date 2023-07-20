@@ -4,29 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .dangky { background-color: cyan; color: blue; width: 250px;}
+        .form {color: blue;}
+        .duongvien{ border:1px dashed ;background-color: yellow;}
+    </style>
 </head>
-<body>
-    <h2>ĐĂNG KÝ HỌC VIÊN</h2>
+<body class="duongvien">
+    <h2 class="dangky">ĐĂNG KÝ HỌC VIÊN</h2>
     <form action="">
-        Họ và tên
+        <span class="form">Họ và tên</span> 
         &ensp;<input type="text" name="firstname" value=""> <br><br>
-        Ngày sinh
+        <span class="form">Ngày sinh</span> 
         &ensp;<input type="text" name="firstname" value=""> <br><br>
-        Giới tính
+        <span class="form">Giới tính</span> 
         &ensp;&ensp;<input type="radio" name="" id=""> Nam <label for=""></label>
         <input type="radio" name="" id=""> Nữ <label for=""></label> <br><br>
-        Địa chỉ
+        <span class="form">Địa chỉ</span>
         &ensp;&ensp;&ensp;<input type="textarea"> <br><br>
-        Lớp
+        <span class="form">Lớp</span>
         &ensp;&ensp;&ensp;&ensp;&ensp;<select name="Chọn lớp" id="">
             <option value="">Chọn lớp</option>
             <option value="">B</option>
             <option value="">C </option>
         </select>
         <br><br>
-        Email
+        <span class="form">Email</span>
         &ensp;&ensp;&ensp;&ensp;&ensp;<input type="email" name="" id=""> <br><br>
-        Điện thoại
+        <span class="form">Điện thoại</span>
         &ensp;&ensp; <input type="phone" name="" id=""><br><br>
         &ensp;&ensp;&ensp;&ensp;&ensp; &ensp;&ensp;&ensp;&ensp;&ensp;
         <input type="submit" value=" Đăng ký">
