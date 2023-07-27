@@ -1,0 +1,152 @@
+/* Column layout */
+.container{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    background-color: black;
+}
+.layout-one{
+    width: 50%;
+    padding: 71px;
+    color: white;
+}
+.layout-two{
+}
+.img{
+    width: 500px;
+}
+.paragrap{
+    font-size: 25px;
+}
+.h2{
+    font-size: 50px;
+}
+/* layout1 */
+.img-layout_one{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+.img-layout1{
+    width: 30%;
+    height: 390px;
+padding: 27px;
+}
+/* layout2 */
+.img-layout_two{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+.img-layout2{
+    width: 30%;
+    height: 390px;
+padding: 27px;
+}
+/* layout3 */
+.img-layout_three{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+.img-layout3{
+    width: 30%;
+    height: 390px;
+padding: 27px;
+}
+/* layout4 */
+.layout4{
+    display: flex;
+    background-color: black;
+}
+.nick{
+    width: 300px;
+    height: 300px;
+}
+.nickpery{
+    color: white;
+    padding: 12px;
+    font-size: 20px;
+}
+/* layout5 */
+.layout5{
+    display: flex;
+    background-color: black;
+}
+.linda{
+    width: 300px;
+    height: 300px;
+}
+.linda-hudson{
+    color: white;
+    padding: 12px;
+    font-size: 20px;
+}
+/* layout6 */
+.layout6{
+    display: flex;
+    background-color: black;
+}
+.liza{
+    width: 300px;
+    height: 300px;
+}
+.liza-loo{
+    color: white;
+    padding: 12px;
+    font-size: 20px;
+}
+/* layout7 */
+.layout7{
+    display: flex;
+    background-color: black;  
+}
+.piter{
+    width: 300px;
+    height: 300px;
+}
+.piter-kim{
+    color: white;
+    padding: 12px;
+    font-size: 20px;
+}
+/* layout8 */
+.layout8{
+    display: flex;
+    background-color: black;  
+    color: white;
+   
+}
+.paragrap2{
+    font-size: 25px;
+    width: 80%;
+}
+.link{
+    padding: 20px;
+    background-color: violet;
+    color: whitesmoke;
+    /* width: 100px; */
+}
+/* layout9 */
+.layout9{
+    display: flex;
+    background-color: black;  
+    color: white;
+}
+.submit{
+    background-color: blue;
+}
+.paragrap3{
+ font-size: 20px;
+ width: 50%;
+}
+.p4{
+    color: purple;
+}
+.paragrap4{
+    font-size: 20px;
+}

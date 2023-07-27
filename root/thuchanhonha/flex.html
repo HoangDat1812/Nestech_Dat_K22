@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Navbar */
+        .nav{
+            min-height: 42px;
+            background-color: tomato;
+            display: flex;
+            justify-content: space-between;
+        }
+        .nav-list{
+            padding-left: 0;
+            margin: auto 16px;
+        }
+        .nav-item{
+            color: beige;
+            list-style: none;
+            margin: 0 8px;
+            display: inline-block;
+        }
+        /* form layout */
+        .form-container{
+            max-width: 720px;
+            padding: 32px;
+            margin: 36px auto 0px;
+            background-color: bisque;
+        }
+        .form-row{
+            padding: 8px 0;
+            display: flex;
+        }
+        .form_input{
+            flex:1;
+        }
+        .form_lable{
+            min-width: 90px;
+        }
+        /* colum-layout */
+        .column-layout{
+            margin-top: 36px;
+            padding: 12px 0;
+            background-color: azure;
+            display: flex;
+        }
+        .column-item{
+           padding: 0 16px;
+           flex:1;
+        }
+        .sidebar-one{
+flex: 1;
+        }
+        .main-column{
+         flex:2;
+        }
+        .sidebar-two{
+flex: 1;
+        }
+        /* feature layout  */
+        .feature-layout{
+            margin-top: 36px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .feature-item{
+            padding: 12px 16px;
+            margin-top: 16px;
+            flex-basis: 30%;
+        }
+        .feature-item:nth-child(1) {
+           background-color: aqua;
+        }
+        .feature-item:nth-child(2){
+            background-color: aquamarine;
+        }
+        .feature-item:nth-child(3){
+            background-color: beige;
+        }
+        /* Wrap layout */
+        .wrap-layout{
+            background-color: aliceblue;
+            margin-top: 36px;
+            padding: 12px 0 32px 0;
+            display: flex;
+            justify-content: space-around;
+        }
+        .wrap-layout_item{
+            width: 148px;
+            height: 90px;
+            color: yellow;
+            text-align: center;
+            line-height: 90px;
+            font-size: 48px;
+        font-weight: 700;
+        margin-top: 20px;
+        background-color:red;
+        }
+        /* center item */
+        .center-layout{
+            background-color: aqua;
+            margin: 36px auto 0 auto;
+            padding: 32px 0;
+            max-width: 640px;
+            height: 360px;
+            display: flex;
+        }
+        .center-layout_item{
+            font-size: 42px;
+            font-weight: 700;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="nav">
+        <ul class="nav-list">
+            <li class="nav-item">Giới thiệu</li>
+            <li class="nav-item">Kết nối</li>
+            <li class="nav-item">Tải ứng dụng</li>
+        </ul>
+        <ul class="nav-list">
+            <li class="nav-item">Đăng ký</li>
+            <li class="nav-item">Đăng nhập</li>
+        </ul>
+    </div>
+    <!-- form layout -->
+    <div class="form-container">
+        <form action="" class="form">
+            <div class="form-row">
+                <label class="form_lable" for="name">Name:</label>
+                <input class="form_input" type="text">
+            </div>
+            <div class="form-row">
+                <label class="form_lable" for="password"> Password:</label>
+                <input class="form_input" type="password">
+            </div>
+        </form>
+    </div>
+        <!-- Colum layout -->
+        <div class="column-layout">
+            <div class="column-item sidebar-one">
+                <h2>Sidebar one</h2>
+                <p>Lao động không còn tin tưởng tầm nhìn, chiến lược công ty, làm việc cầm chừng, 
+                    hiệu suất giảm là những hậu quả doanh nghiệp nhận lại khi cắt giảm nhân sự.</p>
+            </div>
+            <div class="column-item main-column">
+                <h2>Main column</h2>
+                <p>Theo báo cáo, từ tháng 9/2022 đến tháng 5/2023,
+                     trung bình cứ 10 doanh nghiệp Việt Nam thì có 3 doanh nghiệp phải cắt giảm nhân sự với quy mô khác nhau để giảm chi phí.</p>
+                     <p>Dự báo, làn sóng này sẽ còn kéo dài và hình thức "sa thải thầm lặng", tức không tuyển thay thế những vị trí đã tự nguyện nghỉ việc. </p>
+                     <p>Điều này giúp số lượng nhân sự ở các doanh nghiệp giảm xuống như mong muốn nhưng không gây xáo trộn lớn trong tổ chức.</p>
+            </div>
+            <div class="column-item sidebar-two">
+                <h2>Sibar two</h2>
+                <p>Theo bà Thanh Nguyễn, CEO của Anphabe, trong ngắn hạn các doanh nghiệp cắt giảm lao động tiết kiệm chi phí nhưng sau đó phải nhận "hậu quả đắt đỏ"
+                     cho những mất mát lớn hơn về năng suất làm việc và lòng trung thành của nhân viên.</p>
+            </div>
+    </div>
+    <!-- feature layout -->
+    <div class="feature-layout">
+        <div class="feature-item">
+            <h2> Feature 1</h2>
+            <p>Niềm tin của người đi làm Việt Nam đối với tầm nhìn, chiến lược của công ty sụt giảm mạnh",
+                 bà Thanh Nguyễn nói và cho rằng các chỉ số khảo sát nhận được còn thấp hơn giai đoạn khủng hoảng vì Covid-19.</p>
+        </div>
+        <div class="feature-item">
+            <h2>Feature 2</h2>
+            <p>Theo bà Thanh Nguyễn, CEO của Anphabe, trong ngắn hạn các doanh nghiệp cắt giảm lao động tiết kiệm chi phí nhưng sau đó phải nhận "hậu quả đắt đỏ"
+                 cho những mất mát lớn hơn về năng suất làm việc và lòng trung thành của nhân viên.</p>
+        </div>
+        <div class="feature-item">
+            <h2>Feature 3</h2>
+            <p>Người lao động ở những ngành yêu cầu chuyên môn cao như kỹ thuật cơ khí, ngân hàng, vận tải,hậu cần, dược, 
+                kiến trúc xây dựng nếu bị cắt giảm vẫn sẽ dễ dàng tìm thấy việc ở các doanh nghiệp cùng ngành.</p>
+        </div>
+    </div>
+    <!-- Wrap layout -->
+    <div class="wrap-layout">
+        <div class="wrap-layout_item">1</div>
+        <div class="wrap-layout_item">2</div>
+        <div class="wrap-layout_item">3</div>
+        <div class="wrap-layout_item">4</div>
+        <div class="wrap-layout_item">5</div>
+    </div>
+    <!-- Center layout -->
+    <div class="center-layout">
+        <h3 class="center-layout_item"> Center item</h3>
+    </div>
+</body>
+</html>
