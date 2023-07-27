@@ -131,6 +131,11 @@ padding: 27px;
     color: whitesmoke;
     /* width: 100px; */
 }
+.free{
+    display: flex;
+    align-items: center;
+    width: 20%;
+}
 /* layout9 */
 .layout9{
     display: flex;
