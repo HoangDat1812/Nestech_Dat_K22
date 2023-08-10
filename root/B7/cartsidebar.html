@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart sidebar</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- layout1 -->
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+          <a href=""
+            ><img src="./imgfigma/Meubel House_Logos-05.png" alt=""
+          /></a>
+          Furniro
+        </div>
+        <div class="col-6">
+          <div class="row">
+            <div class="col">
+              <a style="text-decoration: none; color: #000000" href="">Home</a>
+            </div>
+            <div class="col">
+              <a style="text-decoration: none; color: #000000" href="">Shop</a>
+            </div>
+            <div class="col">
+              <a style="text-decoration: none; color: #000000" href="">About</a>
+            </div>
+            <div class="col">
+              <a style="text-decoration: none; color: #000000" href=""
+                >Contact</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="row">
+            <div class="col">
+              <img src="./imgfigma/mdi_account-alert-outline.png" alt="" />
+            </div>
+            <div class="col">
+              <img src="./imgfigma/akar-icons_heart.png" alt="" />
+            </div>
+            <div class="col">
+              <img src="./imgfigma/akar-icons_search.png" alt="" />
+            </div>
+            <div class="col">
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                <img
+                  src="./imgfigma/ant-design_shopping-cart-outlined.png"
+                  alt=""
+                />
+              </button>
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">
+                        Shopping Cart
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="card mb-3" style="max-width: 540px">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img
+                              src="./imgfigma/Asgaard sofa 5.png"
+                              class="img-fluid rounded-start"
+                              alt="..."
+                            />
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Asgaard sofa</h5>
+                              <p class="card-text">1 x Rs. 250,000.00</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card mb-3" style="max-width: 540px">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img
+                              src="./imgfigma/Asgaard sofa 5 (1).png"
+                              class="img-fluid rounded-start"
+                              alt="..."
+                            />
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">1 x Rs. 270,000.00</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="text-start">
+                        <p>
+                          <span>Subtotal</span
+                          >&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                          <span class="ss" style="color: #b88e2f"
+                            ><b>Rs. 520,000.00</b></span
+                          >
+                        </p>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Cart
+                      </button>
+                      <button type="button" class="btn btn-primary">
+                        Checkout
+                      </button>
+                      <button type="button" class="btn btn-primary">
+                        Comparison
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- layout2 -->
+    <div
+      class="container text-center"
+      style="background-color: #f9f1e7; height: 70px"
+    >
+      <div class="row" style="padding-top: 20px">
+        <div class="col">
+          <a style="color: #9f9f9f; text-decoration: none" href="#">Home</a> >
+          <a style="color: #9f9f9f; text-decoration: none" href="#">Shop</a> > |
+          <a style="text-decoration: none; color: #000000" href="#"
+            >Asgaard sofa</a
+          >
+        </div>
+        <div class="col"></div>
+        <div class="col"></div>
+      </div>
+    </div>
+    <!-- layout3 -->
+    <div class="card mb-3" style="padding-top: 30px; padding-left: 120px">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img
+            src="./imgfigma/Asgaard sofa 3.png"
+            class="img-fluid rounded-start"
+            style="background-color: #f9f1e7; height: 420px"
+            alt="..."
+          />
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Asgaard sofa</h5>
+            <p>Rs. 250,000.00</p>
+            <img src="./imgfigma/dashicons_star-filled.png" alt="" />
+            <img src="./imgfigma/dashicons_star-filled.png" alt="" />
+            <img src="./imgfigma/dashicons_star-filled.png" alt="" />
+            <img src="./imgfigma/dashicons_star-filled.png" alt="" />
+            <img src="./imgfigma/carbon_star-half.png" alt="" /> |
+            <span>5 Customer Review</span>
+            <p class="card-text">
+              Setting the bar as one of the loudest speakers in its class, the
+              <br />
+              Kilburn is a compact, stout-hearted hero with a well-balanced
+              <br />
+              audio which boasts a clear midrange and extended highs for a
+              <br />
+              sound.
+            </p>
+            <p class="card-text">
+              <small class="text-body-secondary">Size</small>
+            </p>
+            <div class="col">
+              <a
+                style="
+                  background-color: #b88e2f;
+                  font-size: 20px;
+                  text-decoration: none;
+                "
+                href=""
+                >L</a
+              >
+              <a
+                style="
+                  background-color: #f9f1e7;
+                  font-size: 20px;
+                  text-decoration: none;
+                "
+                href=""
+                >XL</a
+              >
+              <a
+                style="
+                  background-color: #f9f1e7;
+                  font-size: 20px;
+                  text-decoration: none;
+                "
+                href=""
+                >XS</a
+              >
+            </div>
+            <p class="card-text">
+              <small class="text-body-seconday">Size</small>
+            </p>
+            <div class="" style="display: flex">
+              <div
+                class="hinh_tron"
+                style="
+                  width: 20px;
+                  height: 20px;
+                  background-color: #816dfa;
+                  border-radius: 50%;
+                  -moz-border-radius: 50%;
+                  -webkit-border-radius: 50%;
+                  margin: 5px;
+                "
+              ></div>
+              <div
+                class="hinh_tron"
+                style="
+                  width: 20px;
+                  height: 20px;
+                  background-color: #000;
+                  border-radius: 50%;
+                  -moz-border-radius: 50%;
+                  -webkit-border-radius: 50%;
+                  margin: 5px;
+                "
+              ></div>
+              <div
+                class="hinh_tron"
+                style="
+                  width: 20px;
+                  height: 20px;
+                  background-color: #b88e2f;
+                  border-radius: 50%;
+                  -moz-border-radius: 50%;
+                  -webkit-border-radius: 50%;
+                  margin: 5px;
+                "
+              ></div>
+              <div></div>
+            </div>
+            <div class="" style="display: flex">
+              <div
+                class="form-control border-success"
+                style="width: 100px; height: 50px; margin: 5px"
+              >
+                -1 +
+              </div>
+              <div
+                class="form-control border-success"
+                style="width: 150px; height: 50px; margin: 5px"
+              >
+                Add To Cart
+              </div>
+              <div
+                class="form-control border-success"
+                style="width: 150px; height: 50px; margin: 5px"
+              >
+                + Compare
+              </div>
+            </div>
+            <hr />
+            <div class="" style="color: #9f9f9f">
+              <p>SKU &emsp;&emsp;&emsp;: SS001</p>
+              <p>Category &emsp;: Sofas</p>
+              <p>Tags &emsp;&emsp;&emsp;: Sofa, Chair, Home, Shop</p>
+              <p>
+                Share &emsp;&emsp; :
+                <a href="#">
+                  <img src="./imgfigma/akar-icons_facebook-fill.png" alt=""
+                /></a>
+                <a href="#">
+                  <img src="./imgfigma/akar-icons_linkedin-box-fill.png" alt=""
+                /></a>
+                <a href="#">
+                  <img
+                    src="./imgfigma/ant-design_shopping-cart-outlined.png"
+                    alt=""
+                /></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- layout 4 -->
+    <div class="">
+      <p class="text-center">
+        <span><b>Description</b></span> &emsp;&emsp;
+        <span>Additional Information</span>&emsp;&emsp;
+        <span>Reviews [5]</span>
+      </p>
+      <p class="para" style="padding-left: 150px; padding-right: 90px">
+        Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn portable
+        active stereo speaker takes the unmistakable look and sound of Marshall,
+        unplugs the chords, and takes the show on the road.
+      </p>
+      <p class="para" style="padding-left: 150px; padding-right: 90px">
+        Weighing in under 7 pounds, the Kilburn is a lightweight piece of
+        vintage styled engineering. Setting the bar as one of the loudest
+        speakers in its class, the Kilburn is a compact, stout-hearted hero with
+        a well-balanced audio which boasts a clear midrange and extended highs
+        for a sound that is both articulate and pronounced. The analogue knobs
+        allow you to fine tune the controls to your personal preferences while
+        the guitar-influenced leather strap enables easy and stylish travel.
+      </p>
+    </div>
+    <!-- layout5 -->
+    <div class="text-center">
+      <img
+        class="img"
+        style="background-color: #f9f1e7; height: 300px"
+        src="./imgfigma/Cloud sofa three seater + ottoman_2 1.png"
+        alt=""
+      />
+      <img
+        class="img"
+        style="background-color: #f9f1e7"
+        src="./imgfigma/Cloud sofa three seater + ottoman_1 1.png"
+        alt=""
+      />
+    </div>
+    <hr />
+    <!-- layout6 -->
+    <div class="container text-center" style="padding-top: 30px">
+      <div class="row">
+        <div class="col">
+          <h3><strong>Our Products</strong></h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-start">
+          <img
+            style="height: 300px"
+            src="./imgfigma/image 1.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Syltherine</h5>
+            <p class="card-text">Stylish cafe chair</p>
+            <p>
+              <span> <b>Rp 2.500.000</b></span>
+              <span> <del>Rp 3.500.000</del></span>
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <img
+            style="height: 300px"
+            src="./imgfigma/image 2.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Leviosa</h5>
+            <p class="card-text">Stylish cafe chair</p>
+            <h5>Rp 2.500.000</h5>
+          </div>
+        </div>
+        <div class="col">
+          <img
+            style="height: 300px"
+            src="./imgfigma/image 3.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Lolito</h5>
+            <p class="card-text">Luxury big sofa</p>
+            <p>
+              <span><b>Rp 7.000.000</b></span>
+              <span><del>Rp 14.000.000</del></span>
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <img
+            style="height: 300px"
+            src="./imgfigma/image 4.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Respira</h5>
+            <p class="card-text">Outdoor bar table and stool</p>
+            <h5>500.000</h5>
+          </div>
+        </div>
+        <!-- layout7 -->
+        <div class="row text-center" style="padding-top: 30px">
+          <a
+            style="
+              text-decoration: none;
+              color: #b88e2f;
+              background-color: #fff;
+              border: 1px solid;
+              width: 200px;
+              flex-shrink: 0;
+              margin-left: 550px;
+            "
+            href=""
+          >
+            <b>Show more</b></a
+          >
+        </div>
+        <!-- layout8 -->
+        <div class="container text-center" style="padding-top: 50px">
+          <div class="row">
+            <div class="col text-start">
+              <h2>Funiro</h2>
+              <p class="" style="color: #9f9f9f">
+                400 University Drive Suite 200 Coral <br />Gables, <br />
+                FL 33134 USA
+              </p>
+            </div>
+            <div
+              class="col text-start"
+              style="display: flex; list-style-type: none"
+            >
+              <div>
+                <ul>
+                  <p class="" style="color: #9f9f9f">Link</p>
+                  <a
+                    class=""
+                    style="text-decoration: none; color: black"
+                    href=""
+                  >
+                    <li style="list-style-type: none">Home</li>
+                  </a>
+                  <a
+                    class=""
+                    style="text-decoration: none; color: black"
+                    href=""
+                  >
+                    <li style="list-style-type: none">Shop</li>
+                  </a>
+                  <a
+                    class=""
+                    style="text-decoration: none; color: black"
+                    href=""
+                  >
+                    <li style="list-style-type: none">About</li>
+                  </a>
+                  <a
+                    class=""
+                    style="text-decoration: none; color: black"
+                    href=""
+                  >
+                    <li style="list-style-type: none">Contact</li>
+                  </a>
+                </ul>
+              </div>
+              <div>
+                <ul>
+                  <p class="" style="color: #9f9f9f">Help</p>
+                  <a
+                    class=""
+                    style="text-decoration: none; color: black"
+                    href=""
+                  >
+                    <li style="list-style-type: none">Payment Options</li>
+                  </a>
+                  <a
+                    class=""
+                    style="text-decoration: none; color: black"
+                    href=""
+                  >
+                    <li style="list-style-type: none">Returns</li>
+                  </a>
+                  <a
+                    class=""
+                    style="text-decoration: none; color: black"
+                    href=""
+                  >
+                    <li style="list-style-type: none">Privacy Policies</li>
+                  </a>
+                </ul>
+              </div>
+            </div>
+            <div class="col text-start" style="color: #9f9f9f">
+              <p>Newsletter</p>
+              <form>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                  />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <!-- layout9 -->
+        <p>2023 furino. All rights reverved</p>
+      </div>
+    </div>
+  </body>
+</html>
