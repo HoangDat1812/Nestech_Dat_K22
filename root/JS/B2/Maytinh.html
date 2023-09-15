@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>calculator</h1>
+    <input type="number" id="n1">
+    <input type="number" id="n2">
+    <br><br>
+    <select name="" id="operator">
+        <option value="">+</option>
+        <option value="">-</option>
+        <option value="">*</option>
+        <option value="">/</option>
+    </select>
+   
+    <input type="text" id="result">
+    <button onclick="myfuntion()"> Submit</button>
+
+    <Script type="text/javascript">
+        function myfuntion() {
+            var n1= document.getElementById('n1'). value;
+            var n2 = document.getElementById('n2'). value;
+            var operator = document.getElementById('operator'). value;
+            var result = 0;
+            if(operator=="+") {
+                result = parseInt('n1') + parseInt('n2');
+                document.getElementById('result'). value = result;
+            } else if(operator=="-"){
+                result = parseInt('n1') - parseInt('n2');
+                document.getElementById('result'). value = result;
+            } else if(operator=="*"){
+                result = parseInt('n1') * parseInt('n2');
+                document.getElementById('result'). value = result;
+            }else {
+                if(n2==0){
+                    alert("can not div 0");
+                } else {
+                    result = parseInt('n1') / parseInt('n2');
+                }
+            }
+            document.getElementById('result'). value = result;
+
+        }
+    </Script>
+</body>
+</html>

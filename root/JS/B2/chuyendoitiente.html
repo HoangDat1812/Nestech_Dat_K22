@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+</head>
+<body>
+  <input type="text" id="dauvao">
+  <select name="" id="select1">
+    <option value="a">VND</option>
+    <option value="b">USD</option>
+  </select>
+  <select name="" id="select2">
+    <option value="a">VND</option>
+    <option value="b">USD</option>
+  </select>
+<button onclick="LamGiDo()">
+  Convert
+</button>
+  <script>
+   function LamGiDo(){
+    let giatrivao = document.getElementById('dauvao'). value;
+    let select1= document.getElementById('select1'). value;
+    let selec2= document.getElementById('select2'). value;
+    if ( select1==selec2){
+      alert(giatrivao)
+    }
+    if (select1== "a" && selec2== "b") {
+      alert(giatrivao/24000);
+    }
+   }
+  </script>
+</body>
+</html>
